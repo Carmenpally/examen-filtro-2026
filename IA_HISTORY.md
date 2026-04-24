@@ -1,128 +1,55 @@
 # IA_HISTORY.md — Registro de Uso de IA
 
-**Alumno/a:** <!-- Tu nombre completo -->
-**Fecha:** <!-- Fecha del examen, ej: 21/04/2026 -->
+**Alumno/a: CARMEN PALLY
+**Fecha: 23/04/26
 
 ---
-
-> **Instrucciones:** Documentar los 2 prompts más importantes que usaste durante el examen.
-> Completar **todas** las secciones con criterio propio. No se trata de copiar lo que generó la IA — se evalúa tu capacidad de analizar, detectar errores y tomar decisiones técnicas fundamentadas.
->
-> **Mínimo por sección de análisis: 3 oraciones.** Respuestas de una línea no se consideran válidas.
+Utilice la IA cuando quise verificar la accesibilidad de mi archivo html y tambien mi archivo css que estuvieran correctos y correspondiesen al style.css
 
 ---
+#Lo que le pidió a la IA
+"Corregi este archivo html de acuerdo a esta consigna, debe tener el buen uso de div, id, ademas de ser un html semantico correcto y tener accesibilidad
+"Recibirás la ficha de un personaje de videojuego hecho con HTML malo. Tu tarea es corregirla , darle estilos modernos y agregar lógicas en JavaScript que se ejecutan en la consola del navegador.""
+index.html
 
-> **Ejemplo de análisis insuficiente** ❌
-> _"La IA generó el código y funcionó bien."_
->
-> **Ejemplo de análisis aceptable** ✅
-> _"La IA reemplazó los `<div>` por etiquetas semánticas, pero usó `<section>` para la navegación en lugar de `<nav>`. Lo detecté al revisar la estructura en DevTools. Técnicamente es incorrecto porque `<nav>` tiene un rol ARIA implícito que `<section>` no tiene, así que lo corregí manualmente."_
-
----
-
-## Prompt 1
-
-### Momento del proceso
 
 ```
-<!--
-  Indicá en qué punto del examen usaste este prompt.
-  No es sobre la hora exacta — es sobre el contexto: ¿qué estabas intentando resolver cuando recurriste a la IA?
-  Ej: "Cuando no sabía cómo estructurar el layout con Grid."
-  Ej: "Al terminar el HTML, para verificar si me faltaba algo de accesibilidad."
-  Ej: "Al principio del ejercicio de JS, para entender cómo arrancar."
--->
-```
-
-### Lo que le pedí a la IA
-
-```
-<!-- Pegá aquí el prompt exacto que escribiste. Debe ser el texto que vos escribiste, no la respuesta. -->
-```
-
-### Análisis del resultado obtenido
-
-```
-<!--
-  Describí con tus propias palabras qué generó la IA. No copies el código ni la respuesta — analizála.
-  Mínimo 3 oraciones. Respondé:
-  - ¿Qué enfoque tomó la IA para resolver el problema?
-  - ¿El resultado era lo que esperabas? ¿Por qué sí o por qué no?
+  - ¿Qué enfoque tomó la IA para resolver el problema? le pase el codigo completo y se salto partes asi que tuve que volver a enviarlo por partes
+  - ¿El resultado era lo que esperabas? ¿Por qué sí o por qué no? mm la verdad que yo pensaba, que sería mas preciso porque ya antes le había pasado un contexto de la situación ademas de transcripciones de cada clase y pdf. Especifique que puntos tomar en cuenta.
   - ¿Qué parte te resultó útil como punto de partida?
--->
-```
-
-### Qué debí corregir manualmente y por qué
+  En realidad lo basico de html lo de las correcciones, no necesite mucha ayuda porque yo me daba cuenta de ciertas partes pero si me sirvio a la hora de corroborar que todo este bien, para darme mayor seguridad por las dudas
 
 ```
-<!--
-  Esta sección es la más importante. Sé específico/a. Mínimo 3 oraciones.
-  Respondé:
-  - ¿Qué error concreto tenía el resultado? (semántico, de accesibilidad, lógico, de estilo, etc.)
-  - ¿Cómo lo detectaste? (al probarlo en el browser, al leer el código, al ver la consola...)
-  - ¿Por qué estaba técnicamente incorrecto o insuficiente?
-  - ¿Qué cambiaste exactamente para que funcionara bien?
-  Si no corregiste nada, explicá por qué el resultado era correcto tal como estaba.
--->
-```
 
----
+Qué debí corregir manualmente y por qué
+Corregi manualmente los <a href=""> que no los tomaba en cuenta
 
-## Prompt 2
 
-### Momento del proceso
+-----2
+Momento del proceso
+Al modificar el archivo css para agregar el grid-template-areas
 
-```
-<!--
-  Indicá en qué punto del examen usaste este prompt.
-  No es sobre la hora exacta — es sobre el contexto: ¿qué estabas intentando resolver cuando recurriste a la IA?
-  Ej: "Cuando no sabía cómo estructurar el layout con Grid."
-  Ej: "Al terminar el HTML, para verificar si me faltaba algo de accesibilidad."
-  Ej: "Al principio del ejercicio de JS, para entender cómo arrancar."
--->
-```
+Lo que le pidió a la IA
+mi archivo style.css no cumple cone stos puntos CSS Moderno (crear style.css)
+Definir macro de diseño con grid-template-areaspara header, mainy footer.
+Usar display: flexpara la barra de navegación y las etiquetas de habilidades ( .tags).
 
-### Lo que le pedí a la IA
-
-```
-<!-- Pegá aquí el prompt exacto que escribiste. Debe ser el texto que vos escribiste, no la respuesta. -->
-```
-
-### Análisis del resultado obtenido
-
-```
-<!--
-  Describí con tus propias palabras qué generó la IA. No copies el código ni la respuesta — analizála.
-  Mínimo 3 oraciones. Respondé:
-  - ¿Qué enfoque tomó la IA para resolver el problema?
-  - ¿El resultado era lo que esperabas? ¿Por qué sí o por qué no?
-  - ¿Qué parte te resultó útil como punto de partida?
--->
-```
-
-### Qué debí corregir manualmente y por qué
-
-```
-<!--
-  Esta sección es la más importante. Sé específico/a. Mínimo 3 oraciones.
-  Respondé:
-  - ¿Qué error concreto tenía el resultado? (semántico, de accesibilidad, lógico, de estilo, etc.)
-  - ¿Cómo lo detectaste? (al probarlo en el browser, al leer el código, al ver la consola...)
-  - ¿Por qué estaba técnicamente incorrecto o insuficiente?
-  - ¿Qué cambiaste exactamente para que funcionara bien?
-  Si no corregiste nada, explicá por qué el resultado era correcto tal como estaba.
--->
-```
-
----
+Análisis del resultado obtenido
+La IA inicialmente diseño en Flexbox y Grid básico, pero no incluía la estructura que exigia el examen. El resultado era funcional, pero no cumplía con la consigna. 
+Tuve que ajustar manualmente la propiedad gap y los márgenes internos de las .stat-card porque el diseño inicial de la IA dejaba los elementos demasiado juntos en pantalla.
 
 ## Reflexión final
 
-```
-<!--
-  Mínimo 3 oraciones. Respondé:
-  - ¿Qué tipo de errores repitió la IA que tuviste que corregir?
-  - ¿Hubo algo que la IA resolvió bien a la primera sin que necesitaras tocarlo?
-  - ¿Cambiarías la forma en que le pedís cosas a la IA la próxima vez? ¿Por qué?
--->
-```
+ ¿Qué tipo de errores repitió la IA que tuviste que corregir?
+El error puntual que repitio fue a la hora de ayudarme a hacer el git push, igual el error fue mio por no darme cuenta que estaba buscando una carpeta que no existia, pero tampoco en algun momento la IA me dijo que verificara si la carpeta era la correcta. Osea son cosas ovbias quizas pero pienso que la IA debería prestar atención a detalles minimos.
+
+¿Hubo algo que la IA resolvió bien a la primera sin que necesitaras tocarlo?
+Resolvió muy bien la lógica de las funciones de JavaScript y la estructura correccion de la estructura html. 
+
+¿Cambiarías la forma en que le pedís cosas a la IA la próxima vez? ¿Por qué?
+Sí. Quizas usaría palabras más especificas, no mandarle todo el codigo o mejor probar otras IA, ahora use Gemini que tengo la anualidad gratuita pero tambien estuve probando con Claude la versión gratis que es muy limitada demasiado, pero en lo poco que lo use me di cuenta que va mas a los puntos claves.
+
+
+
+
+
